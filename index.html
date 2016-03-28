@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CF Pre-work</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Coder Foundry pre-work exercises.  Andy Wonderly.</h1> <br/>
+    <h3>Number comparison exercise</h3>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+
+    <form>
+    	Please input numbers separated by spaces and click ENTER: <input type="text" name="numbersToCompare" value="1 2 3 4">
+    </form>
+    <input type="button" onclick="fiveNumbers()" value="ENTER" id="button1" /> <br/>
+    Least number:  <div id="leastNum"></div><br/>
+    Greatest number: <div id="greatestNum"></div><br/>
+    Average of numbers: <div id="avg"></div><br/>
+    Sum: <div id="sum"></div><br/>
+    Product: <div id="product"></div><br/>
+    
+     <h3>Factorial exercise</h3> 
+      <form>
+        Please enter a positive number for which you would like the factorial and click ENTER: <input type="number" name="factorial" value=5>
+      </form>
+      <input type="button" onclick="factorial()" value="ENTER" id="button2" /> <br/>
+    The factorial is <div id="factorialDiv"></div> <br/>
+      
+      <h3>FizzBuzz exercise</h3>
+      <form>
+          Please enter two integers between 1 and 100 and click ENTER: <input type="text" name="fizzBuzzField" value="11 22">
+      </form>
+    <input type="button" onclick="fizzBuzz()" value="ENTER" id="button3" /> <br/>
+    <div id="fizzBuzzDiv"></div>
+      
+      <h3>Palindrome test exercise</h3>
+      <form>
+        Please enter a string and click ENTER: <input type="text" name="palindromeInput" value="acrobats stab orca">
+      </form>
+      <input type="button" onclick"palindromTest()" value="ENTER" id="button4" /> <br/>
+      <div id="palindromeDiv"></div>
+      
+      
+      
+
+
+
+  </body>
+</html>
